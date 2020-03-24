@@ -37,4 +37,5 @@ class Book(APIView):
         # 获取url拼接参数传参的方式
         # print(request.query_params)
         # print(request.query_params.dict())
+        # 测试一下
         return Response('post_ok')
